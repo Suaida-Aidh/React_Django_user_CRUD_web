@@ -1,0 +1,31 @@
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f9fa; }
+
+
+.form-button .form-submit {
+  background-color: #0d4886f3; /* Set the desired default color */
+  color: white; /* Set the text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+/* Change the button color on hover */
+.form-button .form-submit:hover {
+  background-color: #0f253d; /* Set the desired hover color */
+  color: white; /* Ensure the text color remains white */
+}
+.signup-image-link a {
+  color: black; /* Set the link color to black */
+  text-decoration: none; /* Remove underline */
+}
+
+.signup-image-link a:hover {
+  color: black; /* Ensure the link color remains black on hover */
+  text-decoration: none; /* Ensure underline is removed on hover */
+}

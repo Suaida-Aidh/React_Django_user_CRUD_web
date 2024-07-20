@@ -1,0 +1,51 @@
+/* Center the form container horizontally */
+/* .regfrm {
+    width: 500px;
+    padding: 20px;
+    margin: 70px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10px;
+    background-color: white;
+} */
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loginbtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginbtn:hover {
+    background-color: #0056b3;
+}

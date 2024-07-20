@@ -1,0 +1,19 @@
+.home-container {
+    display: flex;
+  }
+  
+  .left-column {
+    margin-top: 5%;
+    flex: 50%;
+  }
+  
+  .home-image {
+    width: 85%; /* Ensures the image fills its container */
+  }
+  
+  .right-column {
+    margin-top: 15%;
+    flex: 30%;
+    padding: 20px;
+  }
+  

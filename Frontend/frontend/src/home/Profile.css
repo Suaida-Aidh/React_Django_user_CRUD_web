@@ -1,0 +1,89 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes sure the container takes the full height of the viewport */
+  }
+  
+  .image-container, .profile-card {
+    flex: 1;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .profile-card {
+    background-color: #040638; /* Blue background color */
+    padding: 20px; /* Increase padding for a larger card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 50px; /* Add some space between card and image */
+  }
+  
+  .user-profile-image {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 20px; /* Space between image and text */
+  }
+  
+  .profile-card h2 {
+    margin: 0 0 10px;
+    color: white; /* White text color */
+  }
+  
+  .profile-card p {
+    margin: 5px 0;
+    color: white; /* White text color */
+  }
+  
+  .profile-card input[type="file"] {
+    margin-top: 10px; /* Add some space above the file input */
+    color: white; /* White text color */
+  }
+  
+  .profile-card button {
+    padding: 10px 20px;
+    background-color: white; /* White button background color */
+    color: #007bff; /* Blue button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add some space above the button */
+  }
+  
+  .profile-card button:hover {
+    background-color: #0a0a4f; /* Darker blue on hover */
+  }
+  
+
+
+  
+
+
+  .add-user-input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    margin-bottom: 1rem;
+  }
+
+  .add-user-button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-user-button:hover {
+    background-color: #0056b3;
+  }
